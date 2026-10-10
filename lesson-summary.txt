@@ -1,5 +1,7 @@
 HTML INTRODUCTION
 
-I learnt that HTML means HyperText Markup Language. It is used to structure content on a web page. An HTML document normally contains <!DOCTYPE html>, html, head, and body sections. The head contains page information such as the title and the body contains the content displayed in the browser.
+HTML means HyperText Markup Language. It describes the structure and meaning of web-page content; CSS is used for presentation and JavaScript can add behavior.
 
-I also practised headings, paragraphs, buttons, and basic text elements.
+A basic document starts with <!DOCTYPE html>, then the <html> element. The <head> contains page information such as the character encoding, viewport settings, title, and links to stylesheets. The <body> contains the content shown in the browser.
+
+I practised headings, paragraphs, links, buttons, and other text elements. Headings should describe the page structure, rather than being chosen only for their visual size.
