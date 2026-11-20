@@ -5,25 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../lesson.css">
     <link rel="stylesheet" href="../theme.css">
+    <link rel="stylesheet" href="styles.css">
     <title>HTML Class one</title>
-    <style>
-        body {
-            background-color: grey;
-            margin: 40px 50px 40px 70px;
-        }
-    </style>
 </head>
-<body>
-    <header>
+<body class="theme-intro">
+    <header class="site-header">
         <p><a href="../index.html">All lessons</a></p>
         <h1>Good Morning World</h1>
     </header>
     <main>
-        <p>Welcome to my first HTML practice page. HTML gives web-page content its structure.</p>
-        <p><a href="lesson-summary.txt">What I learned</a></p>
-        <p><a href="Classwork_1.html">Our class work</a></p>
-        <p><a href="Class one classwork/index.html">Class one practice</a></p>
-        <p><a href="i/index.html">HTML introduction practice</a></p>
+        <nav class="section-nav" aria-label="Page sections">
+            <a href="#welcome">HTML introduction</a>
+            <a href="#classwork">Our classwork</a>
+            <a href="#class-one-practice">Class one practice</a>
+        </nav>
+
+        <section id="welcome" class="content-card welcome-card">
+            <h2>HTML introduction</h2>
+            <p>Welcome to my first HTML practice page. HTML gives web-page content its structure.</p>
+            <p><a href="lesson-summary.txt">What I learned</a></p>
+        </section>
+
+        <section id="classwork" class="content-card">
+            <h2>Our classwork</h2>
+            <h3>Hi my name is Temitayo</h3>
+            <p>This is my first classwork page.</p>
+        </section>
+
+        <section id="class-one-practice" class="content-card">
+            <h2>Class one practice</h2>
+            <h3>Hi my name is Temitayo</h3>
+        </section>
+
+        <section id="show-your-work" class="content-card">
+            <h2>HTML introduction practice</h2>
+            <h3>Good Morning World</h3>
+            <p>I am a Software Engineering student learning web development.<br>
+                This page records one of my first HTML exercises.
+            </p>
+        </section>
     </main>
     <script src="../theme.js" defer></script>
 </body>
